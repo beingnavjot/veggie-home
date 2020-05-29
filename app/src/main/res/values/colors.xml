@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#057E08</color>
+    <color name="colorPrimaryLight">#50B350</color>
+    <color name="colorPrimaryDark">#06690B</color>
+    <color name="colorAccent">#000000</color>
+    <color name="colorblack">#222121</color>
+    <color name="colorwhite">#FFFFFF</color>
+    <color name="colormaroon">#CC0808</color>
+    <color name="colorblue">#74008A</color>
+    <color name="colordarkblue">#0077DB</color>
+    <color name="colorlightorange">#FF9800</color>
+    <color name="colorgreen">#37A340</color>
+    <color name="colorPurple">#5D0A6F</color>
+    <color name="colorgrey">#E9E1E9</color>
+    <color name="colordarkgrey">#B8B6B8</color>
+    <color name="colorlight">#C1FFC1</color>
+    <color name="colorlightPurple">#A58DAD</color>
+    <color name="colorbg2">#DEDEDE</color>
+    <color name="colortransparent">#46272727</color>
+    <color name="colortransparent1">#00838383</color>
+    <color name="colortransparent2">#14838383</color>
+    <color name="colorlightYellow">#83FCCB3C</color>
+
+
+
+    <!-- Screens background color-->
+    <color name="bg_screen1">#16c266</color>
+    <color name="bg_screen2">#90c2bb</color>
+
+    <!-- dots inactive colors -->
+    <color name="dot_dark_screen1">#39d1ba</color>
+    <color name="dot_dark_screen2">#14a895</color>
+
+    <!-- dots active colors -->
+    <color name="dot_light_screen1">#8de7f9</color>
+    <color name="dot_light_screen2">#8cf9eb</color>
+
+    <array name="array_dot_active">
+        <item>@color/dot_light_screen1</item>
+        <item>@color/dot_light_screen2</item>
+    </array>
+
+    <array name="array_dot_inactive">
+        <item>@color/dot_dark_screen1</item>
+        <item>@color/dot_dark_screen2</item>
+    </array>
+
+</resources>

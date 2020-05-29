@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical"
+    android:weightSum="7">
+    <TextView
+        android:id="@+id/vegetableCategory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="140dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:text="Vegetable Category"
+        android:textColor="@color/colorwhite"
+        android:textSize="19sp" />
+
+<!--    <RelativeLayout-->
+<!--        android:id="@+id/headerView"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="180dp"-->
+
+<!--        android:background="@color/colorPrimaryLight"-->
+<!--        android:backgroundTint="@color/colorPrimary"-->
+<!--        android:paddingTop="50dp"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        tools:ignore="MissingConstraints,Suspicious0dp">-->
+
+
+<!--        <androidx.cardview.widget.CardView-->
+<!--            android:id="@+id/cardSearch"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginLeft="16dp"-->
+<!--            android:layout_marginTop="10dp"-->
+<!--            android:layout_marginRight="16dp"-->
+<!--            android:background="@color/colorPrimaryDark"-->
+<!--            android:elevation="5dp"-->
+<!--            app:cardCornerRadius="16dp">-->
+
+<!--&lt;!&ndash;            <SearchView&ndash;&gt;-->
+<!--&lt;!&ndash;                android:id="@+id/searchView"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:layout_width="match_parent"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:layout_height="50dp"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:layout_gravity="center_vertical"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:background="@drawable/custom_edittext"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:drawableLeft="@drawable/ic_search_lightgreen_24dp"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:drawablePadding="10dp"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:padding="14dp"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:textColor="@color/colorPrimaryLight" />&ndash;&gt;-->
+
+<!--            &lt;!&ndash;            <LinearLayout&ndash;&gt;-->
+<!--            &lt;!&ndash;                android:layout_width="wrap_content"&ndash;&gt;-->
+<!--            &lt;!&ndash;                android:layout_height="wrap_content"&ndash;&gt;-->
+<!--            &lt;!&ndash;                android:orientation="horizontal">&ndash;&gt;-->
+
+<!--            &lt;!&ndash;                <EditText&ndash;&gt;-->
+<!--            &lt;!&ndash;                    android:id="@+id/etsearchView"&ndash;&gt;-->
+<!--            &lt;!&ndash;                    android:layout_width="match_parent"&ndash;&gt;-->
+<!--            &lt;!&ndash;                    android:layout_height="40dp"&ndash;&gt;-->
+<!--            &lt;!&ndash;                    android:layout_gravity="center"&ndash;&gt;-->
+<!--            &lt;!&ndash;                    android:background="@drawable/custom_edittext"&ndash;&gt;-->
+<!--            &lt;!&ndash;                    android:hint="   search vegetables here                                                           "&ndash;&gt;-->
+<!--            &lt;!&ndash;                    android:paddingLeft="20dp" />&ndash;&gt;-->
+
+
+<!--            &lt;!&ndash;            </LinearLayout>&ndash;&gt;-->
+<!--            -->
+
+<!--        </androidx.cardview.widget.CardView>-->
+
+
+
+        <!--        <include android:id="@+id/shimmerMeal"-->
+        <!--            layout="@layout/item_view_pager_header_shimmer"/>-->
+
+
+<!--    </RelativeLayout>-->
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_marginTop="200dp"
+        android:background="@drawable/custom_layout"
+        android:layout_height="50dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="230dp"
+        android:background="@color/colorPrimary">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/VegetableRecyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+           android:background="@color/colorwhite" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"/>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:layout_marginLeft="5dp"
+    android:layout_marginTop="5dp"
+    android:layout_marginRight="5dp">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp"
+        app:cardBackgroundColor="@color/colorlightYellow"
+        app:cardCornerRadius="10dp">
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="24dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="OrderID:"
+            android:textColor="@color/colorAccent"
+            android:textSize="15dp" />
+        <TextView
+
+            android:id="@+id/tvid"
+            android:layout_width="wrap_content"
+            android:layout_height="24dp"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="10dp"
+            android:text="ID"
+            android:textColor="@color/colorAccent"
+            android:textSize="15dp" />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="50dp"
+            android:text="Rs. "
+            android:textSize="16dp" />
+
+        <TextView
+            android:id="@+id/tvprice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="50dp"
+            android:text="Total Price"
+            android:textSize="16dp" />
+
+
+        <TextView
+            android:id="@+id/tvdate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginRight="30dp"
+            android:padding="10dp"
+            android:text="1-may-test"
+            android:textSize="25dp" />
+
+
+        <TextView
+            android:id="@+id/tvtime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginTop="50dp"
+            android:padding="10dp"
+            android:text="Time"
+
+            android:textSize="20dp" />
+
+
+        <TextView
+            android:id="@+id/tvOrderedItems"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="100dp"
+            android:layout_marginBottom="20dp"
+            android:text="Items"
+            android:textSize="16dp" />
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

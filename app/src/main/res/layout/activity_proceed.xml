@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="30dp"
+    tools:context=".ProceedActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/total"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:gravity="right"
+            android:paddingRight="10dp"
+            android:text="Total:" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:text="Enter your delivery detatils: "
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="25dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical"
+        android:padding="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <EditText
+            android:id="@+id/etDeliveryName"
+            android:layout_width="match_parent"
+            android:layout_height="40sp"
+            android:background="@color/colorgrey"
+            android:gravity="center"
+            android:hint="Enter Name"
+            android:inputType="textPersonName"
+            android:textColor="@color/colorAccent"
+            android:textColorHint="@color/colordarkgrey" />
+
+
+        <EditText
+            android:id="@+id/etDeliveryPhoneno"
+            android:layout_width="match_parent"
+            android:layout_height="40sp"
+            android:layout_marginTop="20dp"
+
+            android:background="@color/colorgrey"
+            android:gravity="center"
+            android:hint="Enter Phone no."
+            android:inputType="number"
+            android:textColor="@color/colorAccent"
+            android:textColorHint="@color/colordarkgrey" />
+
+
+        <EditText
+            android:id="@+id/etDeliveryAddress"
+            android:layout_width="match_parent"
+            android:layout_height="40sp"
+            android:layout_marginTop="20dp"
+            android:background="@color/colorgrey"
+            android:gravity="center"
+            android:hint="Enter House address"
+            android:inputType="textEmailAddress"
+            android:textColor="@color/colorAccent"
+            android:textColorHint="@color/colordarkgrey" />
+
+
+        <EditText
+            android:id="@+id/etDeliveryTown"
+            android:layout_width="match_parent"
+            android:layout_height="40sp"
+            android:layout_marginTop="20dp"
+            android:background="@color/colorgrey"
+            android:gravity="center"
+            android:hint="Colony or town"
+            android:textColor="@color/colorAccent"
+            android:textColorHint="@color/colordarkgrey" />
+
+
+        <EditText
+            android:id="@+id/etDeliveryCity"
+            android:layout_width="match_parent"
+            android:layout_height="40sp"
+            android:layout_marginTop="20dp"
+            android:background="@color/colorgrey"
+            android:gravity="center"
+            android:hint="Enter city"
+            android:textColor="@color/colorAccent"
+            android:textColorHint="@color/colordarkgrey" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60sp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnselectPayMethod"
+                android:layout_width="match_parent"
+                android:layout_height="50sp"
+
+                android:background="@drawable/custom_button"
+                android:text="Select payment method"
+                android:textColor="@color/colorwhite" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    </LinearLayout>
+    </ScrollView>
+</LinearLayout>

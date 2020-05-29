@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+
+    android:background="@drawable/veggie11"
+    tools:context=".AuthenticationActivity">
+
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:background="@drawable/veggie11"
+    android:layout_height="250dp"
+    />
+
+    <LinearLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:orientation="vertical"
+        android:background="@drawable/custom_layout"
+        android:layout_gravity="center"
+        android:padding="30dp">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="100dp"
+            android:text="Please enter mobile number"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Headline"
+            android:textColor="@color/colorblack"/>
+
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal">
+
+
+            <Spinner
+                android:id="@+id/spinnerCountry"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content">
+
+            </Spinner>
+
+
+            <EditText
+                android:id="@+id/editTextMobile"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/textView"
+                android:layout_marginRight="40dp"
+                android:digits="0123456789"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textSize="16dp"
+                android:background="@drawable/custom_edittext"
+                android:hint="Your mobile number"
+                android:inputType="phone"
+                android:maxLength="10"
+                />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/buttonContinue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/editTextMobile"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/custom_button"
+            android:layout_gravity="center"
+            android:text="Continue"
+
+            android:textAllCaps="false"
+            android:textColor="@color/colorwhite" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
